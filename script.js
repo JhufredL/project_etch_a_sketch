@@ -8,7 +8,6 @@ const clearBtn = document.querySelector("#clearBtn")
 let squareColor = "purple";
 let randColorBtnStatus = "off";
 
-
 //Allow gridsize change
 changeGridSizeBtn.addEventListener("click", function () {
     let userNum = window.prompt("Please type desired squares per side (MAX: 80)", "80");
